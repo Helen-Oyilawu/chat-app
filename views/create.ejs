@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="max-w-md mx-auto">
+        <div class="p-3">
+            <div class="text-center py-5 rounded bg-gray-800">
+                <h1 class="text-2xl font-bold uppercase text-white"> create chat</h1>
+            </div>
+
+
+            <form action="/create/new/chat" method="post" class="flex flex-col gap-4">
+                <input name="chat_name" type="text" placeholder="Your Name" class="w-full p-3  border border-gray-900">
+                <!-- <input type="text" class="w-full pla p-3  border border-gray-900" placeholder="Chat ID"> -->
+                <button class="bg-gray-800 text-white p-3 px-6" >send</button>
+
+                
+            </form>
+
+
+            <a href="/join">To Join</a>
+
+        </div>
+
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
